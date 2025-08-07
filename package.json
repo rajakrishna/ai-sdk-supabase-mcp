@@ -1,0 +1,23 @@
+{
+  "name": "ai-sdk-mcp",
+  "version": "1.0.0",
+  "description": "A simple demo showing how to use the AI SDK with Supabase MCP (Model Context Protocol) to query your database using natural language.",
+  "license": "ISC",
+  "author": "Raja Krishna",
+  "type": "commonjs",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsx ./index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "tsx": "^4.20.3"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^2.0.1",
+    "@ai-sdk/google": "^2.0.2",
+    "@ai-sdk/openai": "^2.0.4",
+    "ai": "^5.0.5",
+    "dotenv": "^17.2.1"
+  }
+}
